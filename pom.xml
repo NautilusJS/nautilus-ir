@@ -8,6 +8,11 @@
 	<groupId>com.mindlin.nautilus</groupId>
 	<artifactId>nautilus-ir</artifactId>
 	<version>0.0.1-alpha</version>
+	
+	<organization>
+		<name>NautilusJS</name>
+		<url>github.com/nautilusjs</url>
+	</organization>
 
 	<packaging>jar</packaging>
 
@@ -72,6 +77,13 @@
 					<configuration>
 						<source>${jdk.version}</source>
 						<target>${jdk.version}</target>
+						<annotationProcessorPaths>
+							<path>
+								<groupId>com.mindlin.nautilus</groupId>
+								<artifactId>nautilus-irgen</artifactId>
+								<version>0.0.1-alpha</version>
+							</path>
+						</annotationProcessorPaths>
 					</configuration>
 				</plugin>
 				<plugin>
