@@ -1,6 +1,5 @@
 package com.mindlin.nautilus.impl.util;
 
-import java.io.IOException;
 import java.nio.InvalidMarkException;
 
 import com.mindlin.nautilus.util.CharacterStream;
