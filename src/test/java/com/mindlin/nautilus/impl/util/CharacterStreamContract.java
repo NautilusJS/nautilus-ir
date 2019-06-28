@@ -7,6 +7,7 @@ import org.junit.jupiter.api.Test;
 
 import com.mindlin.nautilus.util.CharacterStream;
 
+@SuppressWarnings("resource")
 interface CharacterStreamContract {
 
 	CharacterStream wrap(String text);
